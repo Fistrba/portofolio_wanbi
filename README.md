@@ -1,6 +1,6 @@
 This is basic web portfolio
 
-<img src="https://i.postimg.cc/fW6jD91p/Landing-Page.png" />
+![alt text]([http://url/to/img.png](https://i.postimg.cc/fW6jD91p/Landing-Page.png))
 
 ## How to start
 
