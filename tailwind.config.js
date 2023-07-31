@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'pd': ['Palanquin Dark, sans-serif'],
+      'r': ['Raleway, sans-serif'],
     }
   },
   plugins: [],

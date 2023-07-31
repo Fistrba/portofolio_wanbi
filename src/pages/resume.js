@@ -1,15 +1,57 @@
+import { AcademicCapIcon } from "@heroicons/react/24/solid";
 import { BiCodeAlt } from "react-icons/bi";
 
-export default function Home() {
+export default function Resume() {
   return (
     <div>
       <article className="mt-10" >
         <div className="flex items-center" >
-          <h1 className="text-5xl font-r font-bold tracking-wider" >Home</h1>
+          <h1 className="text-5xl font-r font-bold tracking-wider" >Resume</h1>
           <div className="w-[20%] h-[2px] ml-4 bg-gradient-to-r from-[#525ee1a2] to-[#525ee1]" ></div>
         </div>
-        <div>
-          <p className="text-[#232323] text-lg font-r leading-loose mt-5" >Hello there! I'm thrilled to welcome you to my portfolio. I am a passionate and versatile full-stack developer with a keen interest in exploring the latest cutting-edge technologies. My journey in the world of web development has been nothing short of exhilarating, and  I constantly strive to enhance my skills and embrace emerging trends in the industry.</p>
+        <div className="grid grid-cols-2 gap-10" >
+            <div className="flex justify-center flex-col mt-4" >
+              
+              <div className="flex items-center" >
+                <AcademicCapIcon className=" w-8 h-8 text-xl text-[#f86d03d5]" />
+                <h3 className="ml-2 font-r text-2xl tracking-widest font-semibold text-[#5e5e5e]" >Education</h3>
+              </div>
+             
+             <div className="mt-3" >
+                <div className="bg-[#FFE3BF] flex flex-col rounded-xl" >
+                    <p>2020-2021</p>
+                    <h4>Software Development </h4>
+                    <h4>Moringa School</h4>
+                </div>
+                <div className="bg-[#FFE3BF] mt-2 flex flex-col rounded-xl" >
+                    <p>2020-2021</p>
+                    <h4>Software Development </h4>
+                    <h4>Moringa School</h4>
+                </div>
+             </div>
+
+            </div>
+            <div className="flex justify-center flex-col mt-4" >
+              
+              <div className="flex items-center" >
+                <AcademicCapIcon className=" w-8 h-8 text-xl text-[#f86d03d5]" />
+                <h3 className="ml-2 font-r text-2xl tracking-widest font-semibold text-[#5e5e5e]" >Education</h3>
+              </div>
+             
+             <div className="mt-3" >
+                <div className="bg-[#FFE3BF] flex flex-col rounded-xl" >
+                    <p>2020-2021</p>
+                    <h4>Software Development </h4>
+                    <h4>Moringa School</h4>
+                </div>
+                <div className="bg-[#FFE3BF] mt-2 flex flex-col rounded-xl" >
+                    <p>2020-2021</p>
+                    <h4>Software Development </h4>
+                    <h4>Moringa School</h4>
+                </div>
+             </div>
+
+            </div>
         </div>
       </article>
 
