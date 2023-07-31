@@ -1,5 +1,6 @@
 This is basic web portfolio
 
+![alt text](https://i.postimg.cc/fW6jD91p/Landing-Page.png)
 
 ## How to start
 
@@ -12,5 +13,6 @@ yarn dev
 # or
 pnpm dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
