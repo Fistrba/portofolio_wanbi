@@ -20,10 +20,10 @@ export default function CenterBar({ children }) {
                     <Link href={"/resume"} className={`${pathname === "/resume" ? "bg-[#525FE1] text-white" : "bg-[#E1E8EF] text-[#606060]"} cursor-pointer transition-all hover:text-white hover:bg-[#525FE1] text-[#606060] flex justify-center items-center flex-col w-[24%] rounded-xl`} >
                         <div  className="flex justify-center items-center flex-col font-f uppercase text-xs font-normal" ><ListBulletIcon className="w-6 h-6 p-1" /><span className="mt-2" >Resume</span></div>
                     </Link>
-                    <Link  href={"/work"} className="bg-[#E1E8EF] cursor-pointer transition-all  hover:text-white hover:bg-[#525FE1] text-[#606060] flex justify-center items-center flex-col w-[24%] rounded-xl" >
+                    <Link  href={"/work"} className={`${pathname === "/work" ? "bg-[#525FE1] text-white" : "bg-[#E1E8EF] text-[#606060]"} cursor-pointer transition-all hover:text-white hover:bg-[#525FE1] text-[#606060] flex justify-center items-center flex-col w-[24%] rounded-xl`}>
                         <div className="flex justify-center items-center flex-col font-f uppercase text-xs font-normal" ><MdWorkOutline className="w-6 h-6 p-1" /><span className="mt-2" >Work</span></div>
                     </Link>
-                    <Link  href={"/contact"} className="bg-[#E1E8EF] cursor-pointer transition-all  hover:text-white hover:bg-[#525FE1] text-[#606060] flex justify-center items-center flex-col w-[24%] rounded-xl" >
+                    <Link  href={"/contact"} className={`${pathname === "/contact" ? "bg-[#525FE1] text-white" : "bg-[#E1E8EF] text-[#606060]"} cursor-pointer transition-all hover:text-white hover:bg-[#525FE1] text-[#606060] flex justify-center items-center flex-col w-[24%] rounded-xl`} >
                         <div className="flex justify-center items-center flex-col font-f uppercase text-xs font-normal" ><BiSolidContact className="w-6 h-6 p-1" /><span className="mt-2" >Contact</span></div>
                     </Link>
                 </ul>

@@ -3,16 +3,20 @@ import CenterBar from "./CenterBar";
 import LeftBar from "./LeftBar";
 import Meta from "./Meta";
 import TopBar from "./TopBar";
+import { useRouter } from "next/router";
 
 export default function AppLayout({children}) {
 
     const { darkMode } = useDark()
 
+    const router = useRouter()
+    const pathname = router.pathname
+
     return (
         <div id="app" className={!darkMode ? "bg-[#F2F5F9]  transition-colors pb-20 lg:pb-0" : "bg-[#0c0e2d] transition-colors pb-20 lg:pb-0"} >
                 <Meta />
                 <TopBar />
-                <div className="wrapper lg:pb-0 flex justify-center items-start  lg:items-center" >
+                <div className={`${pathname === "/work" ? "wrapper-w" : "wrapper"} lg:pb-0 flex justify-center items-start  lg:items-center`} >
                     <div className="container  content-wrp px-5 flex-col justify-center lg:flex-row flex mx-auto lg:justify-between  items-center lg:items-end" >
                         <LeftBar />
                         <CenterBar>

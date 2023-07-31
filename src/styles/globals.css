@@ -40,6 +40,20 @@ body {
       height: auto !important;
    }
 }
+.wrapper-w {
+   height: 100vh;
+}
+
+@media (min-width:1024px) and (max-height: 1100px) {
+   .wrapper-w {
+      height: 75rem;
+   }
+}
+@media (max-width:1024px) and (max-height: 700px)  {
+   .wrapper-w {
+      height: auto !important;
+   }
+}
 
 
 .content-wrp {
